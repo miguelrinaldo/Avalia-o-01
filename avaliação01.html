@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaliação 01</title>
-     <script src="js/script_avaliação01.js"></script>
-
+     <script src="js/script_captação.js" typer="modulo"></script>
+     <script src="js/script_calculosdosresiduos.js" typer="modulo"></script>
 </head>
 <body>
     <div id="geral">
@@ -13,17 +13,11 @@
 
     <form id="formulario">
 
-        <label for="quantidade">Quantidade Recolhida</label>
-        <input type="text" name="quantidade" id="quantidade">
-      
-        <label for="valor">Valor a Receber</label>
-        <input type="text" name="valor" id="valor">
+        <label for="descrição">Descrição da Empresa</label>
+        <input type="text" name="descrição" id="descrição">
 
-        <label for="premiação">Valor da Premiação</label>
-        <input type="text" name="premiação" id="valor-premiação">
-
-        <label for="final">Valor Final</label>
-        <input type="text" name="final" id="final">
+        <label for="valor">Valor dos residuos </label>
+        <input type="number" name="valor" id="valor">
 
         <button type="submit">Calcular</button>
         <button type="reset">Limpar</button>
@@ -31,7 +25,9 @@
     </div>
 
 
-     <div id="resultado"></div>
+     <div id="resultado">
+
+     </div>
 
 
     </form>
